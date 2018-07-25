@@ -28,17 +28,17 @@
             <name>Arun Gupta</name>
             <email>arun.gupta@gmail.com</email>
         </developer>
-    </developers>
+    </developers>  
     <distributionManagement>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost/nexus/content/repositories/releases/</url>
+            <url>http:///10.19.11.160/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost/nexus/content/repositories/snapshots/</url>
+            <url>http://10.19.11.160/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
