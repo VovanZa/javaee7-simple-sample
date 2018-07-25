@@ -29,18 +29,20 @@
             <email>arun.gupta@gmail.com</email>
         </developer>
     </developers>  
-    <distributionManagement>
+    
+        <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http:///10.19.11.160/content/repositories/releases/</url>
+            <id>releases</id>
+            <name>releases</name>
+            <url>http://10.19.11.160/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
+            <id>snapshots</id>
+            <name>snapshots</name>
             <url>http://10.19.11.160/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
+        </snapshotRepository>         
     </distributionManagement>
+    
     <build>
     	<finalName>javaee7-simple-sample</finalName>
         <pluginManagement>
