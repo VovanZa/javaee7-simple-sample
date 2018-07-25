@@ -37,7 +37,7 @@
             <url>http://10.19.11.160/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>snapshots</id>
             <name>Internal Snapshot Releases</name>
              <url>http://10.19.11.160/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>         
