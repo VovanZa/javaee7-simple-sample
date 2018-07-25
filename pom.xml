@@ -98,7 +98,7 @@
                     <hostname>10.19.12.73</hostname>
                     <port>9990</port>
                     <username>jbossadmin</username>
-                    <password>123</password>
+                    <password>dude-2018</password>
                 </configuration>
 <!--
                 <executions>
