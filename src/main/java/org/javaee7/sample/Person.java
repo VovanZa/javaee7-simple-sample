@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author arungupta
  */
 @XmlRootElement
-public class Person {
+public class Person {     
     private String name;
 
     public Person() {
