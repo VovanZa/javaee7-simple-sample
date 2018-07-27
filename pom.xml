@@ -82,7 +82,7 @@
                         <nohelp>true</nohelp>
                     </configuration>
                 </plugin>
-                <plugin>
+                <plugin> 
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
                     <version>2.4</version>
